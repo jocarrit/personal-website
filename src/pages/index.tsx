@@ -1,5 +1,5 @@
 import Hello from "../components/Hello"
-import styled from "@emotion/styled"
+import styled from '../lib/styled'
 import Link from "next/link"
 
 const Div = styled.div`

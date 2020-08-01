@@ -1,4 +1,4 @@
-import styled from "@emotion/styled"
+import styled from '../lib/styled'
 
 const Big = styled.h1`
   font-size: 8rem;

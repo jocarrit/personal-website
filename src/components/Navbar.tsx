@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styled from '@emotion/styled'
+import styled from '../lib/styled'
 import { useTheme } from 'emotion-theming'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserAstronaut, faSpaceShuttle, faTools, faComment } from '@fortawesome/free-solid-svg-icons'
