@@ -3,7 +3,15 @@ import styled from '../lib/styled'
 import Link from "next/link"
 
 const Div = styled.div`
-  margin: auto 0;
+  margin:auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (max-width: 600px) {
+    margin-left: 0;
+    width: 100%;
+  }
 `
 
 const SayHi = styled.a`
@@ -29,8 +37,7 @@ const Home: React.FC = () => {
     <Div>
       <Hello />
       <h2>My name is Jose Carrillo</h2>
-      <p>I'm a web developer based in Costa Rica.</p>
-      <p>I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
       <Link href="/Contact">
         <SayHi>
           Say hi!

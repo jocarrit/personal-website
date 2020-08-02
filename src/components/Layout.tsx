@@ -6,7 +6,6 @@ import styled from '@emotion/styled'
 const Main = styled.main`
   margin: 0 auto;
   padding: 1rem;
-  width: 50rem;
   height: 100vh;
   display: flex;
   flex-direction: column;

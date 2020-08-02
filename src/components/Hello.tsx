@@ -1,9 +1,13 @@
 import styled from '../lib/styled'
 
 const Big = styled.h1`
-  font-size: 8rem;
+  font-size: 100px;
   color: ${props => props.theme.primary};
-  margin: 1rem 0;
+  margin: 0;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 50px;
+  } 
 `
 
 const Hello:React.FC = () => {
