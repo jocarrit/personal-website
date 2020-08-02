@@ -8,7 +8,7 @@ const Div = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     margin-left: 0;
     width: 100%;
   }

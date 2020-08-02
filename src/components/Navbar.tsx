@@ -9,6 +9,11 @@ const Nav = styled.nav`
   width: 5rem;
   height: 100vh;
   background: ${props => props.theme.navbar};
+
+  @media only screen and (max-width: 768px) {
+    height: 5rem;
+    width: 100vw;
+  }
 `
 
 const NavList = styled.ul`
@@ -19,7 +24,12 @@ const NavList = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+  }
 `
 
 const NavItem = styled.li`
@@ -31,11 +41,14 @@ const NavLink = styled.a`
   flex-direction: column;
   justify-content: center;
   font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   text-decoration: none;
   align-items: center;
   height: 5rem;
   cursor: pointer;
   filter: opacity(0.7);
+  transition: 200ms;
 
   & > svg {
     width: 2rem;
@@ -45,8 +58,8 @@ const NavLink = styled.a`
   }
 
   &:hover {
-    background: ${props => props.theme.secondary};
     color: ${props => props.theme.primary};
+    font-size: 1rem;
   }
 `
 
@@ -67,14 +80,16 @@ const Navbar:React.FC = () => {
         <NavItem>
           <Link href="/">
             <NavLink>
-              <FontAwesomeIcon size="lg" icon={faSpaceShuttle} />
+                <LinkText>
+                  Home
+                </LinkText>
             </NavLink>
           </Link>
         </NavItem>
         <NavItem>
           <Link href="/Work">
             <NavLink>
-              <FontAwesomeIcon size="lg" icon={faTools} />
+
               <LinkText>
                 Work
               </LinkText>
@@ -84,7 +99,7 @@ const Navbar:React.FC = () => {
         <NavItem>
           <Link href="/About">
             <NavLink>
-              <FontAwesomeIcon size="lg" icon={faUserAstronaut} />
+
               <LinkText>
                 About
               </LinkText>
@@ -94,7 +109,7 @@ const Navbar:React.FC = () => {
         <NavItem>
           <Link href="/Contact">
             <NavLink>
-              <FontAwesomeIcon size="lg" icon={faComment} />
+
               <LinkText>
                 Say hi!
               </LinkText>
