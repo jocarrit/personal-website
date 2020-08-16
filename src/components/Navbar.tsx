@@ -1,8 +1,5 @@
 import Link from 'next/link'
 import styled from '../lib/styled'
-import { useTheme } from 'emotion-theming'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserAstronaut, faSpaceShuttle, faTools, faComment } from '@fortawesome/free-solid-svg-icons'
 
 const Nav = styled.nav`
   position: fixed;
@@ -63,26 +60,20 @@ const NavLink = styled.a`
   }
 `
 
-const Logo = styled.li`
-  background: ${props => props.theme.logoBackground};
-  width: 100%;
-`
-
 const LinkText = styled.span`
 
 `
 
 const Navbar:React.FC = () => {
-  const theme = useTheme()
   return (
     <Nav>
       <NavList>
         <NavItem>
           <Link href="/">
             <NavLink>
-                <LinkText>
+              <LinkText>
                   Home
-                </LinkText>
+              </LinkText>
             </NavLink>
           </Link>
         </NavItem>
