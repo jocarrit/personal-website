@@ -1,18 +1,6 @@
-import Hello from "../components/Hello"
+import Hello from '../components/Hello'
 import styled from '../lib/styled'
-import Link from "next/link"
-
-const Div = styled.div`
-  margin:auto;
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-
-  @media only screen and (max-width: 768px) {
-    margin-left: 0;
-    width: 100%;
-  }
-`
+import Link from 'next/link'
 
 const SayHi = styled.a`
   display: block;
@@ -34,7 +22,7 @@ const SayHi = styled.a`
 
 const Home: React.FC = () => {
   return (
-    <Div>
+    <div>
       <Hello />
       <h2>My name is Jose Carrillo</h2>
       <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
@@ -43,7 +31,7 @@ const Home: React.FC = () => {
           Say hi!
         </SayHi>
       </Link>
-    </Div>
+    </div>
   )
 }
 
