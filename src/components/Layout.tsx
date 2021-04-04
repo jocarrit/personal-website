@@ -7,9 +7,6 @@ const Main = styled.main`
   margin: 0 auto;
   padding: 1rem;
   width: 40rem;
-  /* display: flex;
-  flex-direction: column;
-  justify-content:center; */
   align-items:center;
   flex: 1 0 auto;
   
@@ -33,6 +30,7 @@ const Footer = styled.div`
   justify-content: center;
   color: ${props => props.theme.grey};
   flex: 0 0 auto;
+  font-size: 12px;
 
   @media only screen and (max-width: 768px) {
     font-size: 12px;
@@ -49,7 +47,7 @@ const Layout:React.FC<{ children: React.ReactNode}> = ({children}) => {
           {children}
         </Main>
         <Footer>
-          Made with love and coffee by Jose Carrillo
+          Made with 🧡 and ☕️ by @jocarrito
         </Footer>
       </Div>
     </div>
