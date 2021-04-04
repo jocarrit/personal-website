@@ -20,18 +20,41 @@ const SayHi = styled.a`
     }
 `
 
+const Container = styled.div`
+    height: 100%;
+    /* width: 100%; */
+    /* padding-top: 72px; */
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction:column;
+`
+
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Hello />
       <h2>My name is Jose Carrillo</h2>
       <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+      <p>I'm a web developer based in Costa Rica. I've been developing web interfaces with React for enterprise and IoT apps, but I'm also skilled in back-end development with Laravel PHP and NodeJS.</p>
+
       <Link href="/Contact">
         <SayHi>
           Say hi!
         </SayHi>
       </Link>
-    </div>
+    </Container>
   )
 }
 
