@@ -1,6 +1,13 @@
+import Title from '../components/Title'
+import Container from '../components/Container';
+import styled from '../lib/styled'
+import Link from 'next/link'
+
 const Work:React.FC = () => {
   return (
-    <h1>Work</h1>
+    <Container>
+      <Title>Work</Title>
+    </Container>
   )
 }
 

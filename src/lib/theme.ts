@@ -13,11 +13,10 @@ const flatGreen = '#47b39d'
 
 export const theme = {
   background: flatBlackLighter,
-  logoBackground: flatOrange,
+  secondary: flatOrange,
   navbar: flatBlack,
   body: white,
   primary: flatGreen,
-  secondary: flatViolet,
   white: white,
   contrast: black,
   grey: grey

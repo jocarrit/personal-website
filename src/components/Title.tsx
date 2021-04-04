@@ -10,12 +10,12 @@ const Big = styled.h1`
   } 
 `
 
-const Hello:React.FC = () => {
+const Title:React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div>
-      <Big>Hello <span role="img" aria-label="sheep">👋️</span></Big>
+      <Big> { children } <span role="img" aria-label="sheep"></span></Big>
     </div>
   )
 }
 
-export default Hello
+export default Title
