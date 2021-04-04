@@ -6,7 +6,7 @@ const Nav = styled.nav`
   width: 5rem;
   height: 100vh;
   background: ${props => props.theme.navbar};
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 
   @media only screen and (max-width: 768px) {
     height: 5rem;
