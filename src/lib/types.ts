@@ -7,4 +7,5 @@ export type Theme = {
   secondary: string
   white: string
   contrast: string
+  grey: string
 }
