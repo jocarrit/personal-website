@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "author": "Jose Manuel Carrillo",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,7 +18,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "emotion-theming": "^10.0.27",
-    "next": "9.4.4",
+    "next": "latest",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
