@@ -31,10 +31,7 @@ const Footer = styled.div`
   color: ${props => props.theme.grey};
   flex: 0 0 auto;
   font-size: 12px;
-
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
+  padding-bottom: 8px;
 `
 
 const Layout:React.FC<{ children: React.ReactNode}> = ({children}) => {
