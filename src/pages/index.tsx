@@ -2,12 +2,7 @@ import Title from '../components/Title'
 import styled from '../lib/styled'
 import Container from '../components/Container';
 import Link from 'next/link'
-
-const To = styled.a`
-  text-decoration: none;
-  cursor: pointer;
-  color: ${props => props.theme.secondary};
-`
+import To from '../components/To'
 
 const SayHi = styled.a`
   display: block;
