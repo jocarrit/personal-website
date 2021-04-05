@@ -35,7 +35,7 @@ const Home: React.FC = () => {
       <p>I'm a software developer, I love to construct web interfaces with React, but I'm also skilled with NodeJS, Graphql, and Laravel.</p>
       <p>I enjoy to face new problems and look for the right tool and solution, and never stop learning new technologies every day.</p>
       <p>I have a special interest in web development, Blockchain, and IoT apps.</p>
-      <p>Here you can see part of <Link href="/Work"><To>my work</To></Link>, check more <Link href="/About"><To>about me</To></Link> or say hi! on my social media:</p>
+      <p>Here you can see part of <Link href="/Work"><To>my work</To></Link>, check more <Link href="/About"><To>about me</To></Link> or say hi! on my <Link href="/Contact"><To>social media</To></Link></p>
     </Container>
   )
 }
