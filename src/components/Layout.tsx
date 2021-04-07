@@ -2,6 +2,7 @@ import React from 'react'
 import GlobalStyles from './GlobalStyles'
 import Navbar from './Navbar'
 import styled from '../lib/styled'
+import To from './To'
 
 const Main = styled.main`
   margin: 0 auto;
@@ -31,7 +32,6 @@ const Footer = styled.div`
   color: ${props => props.theme.grey};
   flex: 0 0 auto;
   font-size: 12px;
-  padding-bottom: 8px;
 `
 
 const Layout:React.FC<{ children: React.ReactNode}> = ({children}) => {
@@ -44,7 +44,7 @@ const Layout:React.FC<{ children: React.ReactNode}> = ({children}) => {
           {children}
         </Main>
         <Footer>
-          Made with 🧡 and ☕️ by @jocarrito
+          <p>Made with 🧡 and ☕️ by <To target="_blank" href="https://twitter.com/jocarrito" > @jocarrito</To></p>
         </Footer>
       </Div>
     </div>
