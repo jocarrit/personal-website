@@ -7,6 +7,7 @@ const Nav = styled.nav`
   height: 100vh;
   background: ${props => props.theme.navbar};
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+  z-index: 1000;
 
   @media only screen and (max-width: 768px) {
     height: 5rem;
