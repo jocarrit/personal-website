@@ -24,9 +24,9 @@ const ProjectList: Array<Project> =[
     'Github': new URL('https://github.com/jocarrit/personal-website'),
   },
   {
-    'Title': 'Network as a service Team',
-    'Description': 'As a member of the NaaS team on IBM, I have develop Ansible playbooks for managing Infraestructure.',
-    'Link': new URL('https://www.ibm.com'),
+    'Title': 'Kyndryl, Network as a service Team',
+    'Description': 'Works in an agile, collaborative environment to build, deploy, configure, and maintain microservices on Kubernetes Clusters. Develop automation tools with Ansible. Maintain User interfaces based on Angular and IBM’s Carbon Components. Lead the FrontEnd Chapter, defining code standards and best practices for the rest of the squads.',
+    'Link': new URL('https://mediacenter.ibm.com/media/Cloud+Network+Intelligent+Control+Center+Demo/1_csqnrkrx'),
     'Github': null,
   },
   {
