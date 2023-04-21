@@ -18,10 +18,22 @@ type Project = {
 
 const ProjectList: Array<Project> =[
   {
-    'Title': 'This site...',
-    'Description': 'This website have been developed with NextJS and deployed on Vercel.',
-    'Link': new URL('https://jocarri.to'),
-    'Github': new URL('https://github.com/jocarrit/personal-website'),
+    'Title': 'Critical Mass, Senior Frontend Developer (current)',
+    'Description': 'Work with different clients in the Health industry, developing internal apps and websites for clinical studies',
+    'Link': new URL('https://www.criticalmass.com/'),
+    'Github': null,
+  },
+  {
+    'Title': 'Freelances',
+    'Description': 'Worked with different clients in Health and Energy areas, like ICE and KQNutrición',
+    'Link': new URL('https://www.criticalmass.com/'),
+    'Github': null,
+  },
+  {
+    'Title': 'CETAV, ReactJS instructor',
+    'Description': 'React js course in the final stage of the Web developer career',
+    'Link': new URL('http://www.parquelalibertad.org/cetav/home'),
+    'Github': null,
   },
   {
     'Title': 'Kyndryl, Network as a service Team',
